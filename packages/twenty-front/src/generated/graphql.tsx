@@ -539,6 +539,7 @@ export type RelationConnection = {
 export type RelationDefinition = {
   __typename?: 'RelationDefinition';
   direction: RelationDefinitionType;
+  relationId: Scalars['UUID'];
   sourceFieldMetadata: Field;
   sourceObjectMetadata: Object;
   targetFieldMetadata: Field;
